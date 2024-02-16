@@ -5,7 +5,7 @@ import getEditTicketWidget from "./editTicketWidget";
 import changeTicketStatus from "./functionChangeTicketStatus";
 import showTicketDescription from "./functionShowTicketDescription";
 
-
+const serverUrl = "https://ahj-hw-http.herokuapp.com/";
 
 const mainContainer = document.querySelector(".container");
 const ticketsContainer = document.querySelector(".tickets-container");
